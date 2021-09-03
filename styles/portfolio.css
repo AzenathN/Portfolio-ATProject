@@ -1,70 +1,89 @@
-:root{
-    --main-color: #6C63FF;
-    --secondary-color:#F9F7FE;
-    --heading-font-family: "Playfair Display", serif;
-    --default-font-family: "Poppins", sans-serif;
+:root {
+  --main-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
 }
-body{
-    font-family:var(--default-font-family);
-}
-
-h1,h2{
-    color:black;
-    font-family: var(--heading-font-family);
-    font-weight: bold;
-    line-height: 1.5;
-}
-h1{
-    font-size: 96px;
+body {
+  font-family: var(--default-font-family);
 }
 
-h2{
-font-size: 64px;
-font-weight: normal;
+h1,
+h2 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  line-height: 1.5;
+}
+h1 {
+  font-size: 96px;
 }
 
-p{
-font-size: 16px;
-line-height: 30px;
+h2 {
+  font-size: 64px;
 }
 
-.hero{
-    background: var(--secondary-color);
-    text-align:center;
-    padding: 160px 20px;
+p {
+  font-size: 16px;
+  line-height: 30px;
 }
 
-.hero h3{
-    font-size: 36px;
-    font-weight: bold;
-    margin: 0;
-}
-.hero h2{
-    font-size: 24px;
-    font-family: var(--heading-font-family);
-    font-weight:normal ;
-    line-height: 1.5;
-}
-.btn-contact,.btn-information{
-    font-size: 18px;
-    border-radius: 4px;
-    padding: 18px 30px;
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
 }
 
-.btn-contact{
-   background: var(--main-color);
-   color:#FFFFFF;
+.hero h3 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+.hero h2 {
+  font-size: 24px;
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 1.5;
+}
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.about-section p {
+  font-size: 20px;
+  line-height: 30px;
+}
+.btn-branding,
+.btn-information {
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 18px 30px;
 }
 
-.btn-information{
-    border: var(--main-color)1px solid;
-    color: var(--main-color) ;
-    line-height: 30px;
-    border: 1px solid #6C63FF;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin:30%
+.btn-branding {
+  background: var(--main-color);
+  color: #ffffff;
+}
+
+.btn-information {
+  border: var(--main-color) 1px solid;
+  color: var(--main-color);
+  line-height: 30px;
+  border: 1px solid #6c63ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30%;
+}
+.img-fluid {
+  max-width: 100%;
 }
 
 @media (max-width: 900px) {
@@ -86,4 +105,3 @@ line-height: 30px;
     text-align: center;
   }
 }
-
