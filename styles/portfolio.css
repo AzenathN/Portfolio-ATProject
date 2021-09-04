@@ -9,7 +9,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   color: black;
   font-family: var(--heading-font-family);
   font-weight: bold;
@@ -52,13 +53,21 @@ p {
   font-size: 64px;
   line-height: 80px;
 }
-.about-section h2 {
+.about-section-content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.about-section p {
+.about-section-content p {
   font-size: 20px;
   line-height: 30px;
+}
+.work-section-content {
+  padding: 160px 20px;
+  margin: 30px;
+}
+.work-section-content h1 {
+  font-size: 64px;
+  line-height: 80px;
 }
 .btn-branding,
 .btn-information {
