@@ -99,6 +99,10 @@ p {
 footer {
   margin: 10px 10px;
 }
+footer h4 {
+  font-family: "Allison", cursive;
+  font-size: 65px;
+}
 footer .contact-box {
   background: var(--secondary-color);
   border-radius: 50px;
@@ -123,23 +127,20 @@ footer .email-link {
 .btn-information {
   font-size: 18px;
   border-radius: 4px;
-  padding: 18px 30px;
+  padding: 15px 30px;
 }
 
 .btn-branding {
   background: var(--main-color);
   color: #ffffff;
+  line-height: 27px;
 }
 
 .btn-information {
   border: var(--main-color) 1px solid;
   color: var(--main-color);
-  line-height: 30px;
+  line-height: 27px;
   border: 1px solid #6c63ff;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 30%;
 }
 .img-fluid {
   max-width: 100%;
@@ -186,5 +187,10 @@ nav li.active a {
   .project-information {
     padding: 0;
     text-align: center;
+  }
+
+  footer .email-link {
+    font-size: 14px;
+    max-width: 50%;
   }
 }
